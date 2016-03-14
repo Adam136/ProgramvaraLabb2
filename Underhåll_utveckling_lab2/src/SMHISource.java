@@ -1,4 +1,4 @@
-package SMHI;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -52,7 +52,7 @@ public class SMHISource {
 //			System.out.println(parameterKey);
 //		}
 		
-		parameterKey = "22";
+		parameterKey = "2";
 
 		return parameterKey;
 	}
@@ -80,7 +80,7 @@ public class SMHISource {
 //			System.out.println(stationId);
 //		}
 
-		stationId = "76000";
+		stationId = "98210";
 		return stationId;
 	}
 

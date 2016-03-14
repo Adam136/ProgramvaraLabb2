@@ -50,7 +50,7 @@ public class DataCollectionBuilder {
 					MatchedDataPair tempPair = new MatchedDataPair(tempX, tempY);
 					
 					if(resolution == Resolution.DAY) {
-						finalResult.put("VÃ¤rde nr: " + ordning + " ", tempPair);
+						finalResult.put("Värde nr: " + ordning + " ", tempPair);
 					}
 					
 					if(resolution == Resolution.MONTH) {

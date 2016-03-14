@@ -2,9 +2,9 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/CryEnginge/Downloads/genson-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CryEnginge/Downloads/genson-scala_2.10-1.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CryEnginge/Downloads/java-json.jar/java-json.jar"/>
-	<classpathentry kind="lib" path="C:/Users/CryEnginge/Downloads/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/Users/Sven/Dropbox/Skola/genson-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Users/Sven/Dropbox/Skola/genson-scala_2.10-1.3.jar"/>
+	<classpathentry kind="lib" path="E:/Users/Sven/Dropbox/Skola/java-json.jar"/>
+	<classpathentry kind="lib" path="E:/Users/Sven/Dropbox/Skola/junit-4.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
