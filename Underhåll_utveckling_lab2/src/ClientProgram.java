@@ -7,7 +7,7 @@ public class ClientProgram {
 //		SineWave sine = new SineWave();
 		SMHITest smhi = new SMHITest();
 		
-		DataCollectionBuilder dcb = new DataCollectionBuilder(goals, smhi, Resolution.DAY);
+		DataCollectionBuilder dcb = new DataCollectionBuilder(goals, smhi, Resolution.MONTH);
 		
 		System.out.println(dcb.getResult().getData());
 	}

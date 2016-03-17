@@ -19,13 +19,14 @@ public class SMHITest implements DataSource {
 
 	@Override
 	public String getName() {
-		return null;
+		
+		return "Antal grader per dag i Stockholm";
 	}
 
 	@Override
 	public String getUnit() {
-		// TODO Auto-generated method stub
-		return null;
+		
+		return "Grader";
 	}
 
 	@Override
