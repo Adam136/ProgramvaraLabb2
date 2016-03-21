@@ -20,18 +20,8 @@ public class ResQuarter {
 			for (Map.Entry<LocalDate, MatchedDataPair> entry2 : pairMap.entrySet()) {
 				if(entry.getKey().equals(entry2.getKey())) {
 					String[] months = new String[12];
-					months[0] = "JANUARY";
-					months[1] = "FEBRUARY";
-					months[2] = "MARCH";
-					months[3] = "APRIL";
-					months[4] = "MAY";
-					months[5] = "JUNE";
-					months[6] = "JULY";
-					months[7] = "AUGUST";
-					months[8] = "SEPTEMBER";
-					months[9] = "OCTOBER";
-					months[10] = "NOVEMBER";
-					months[11] = "DECEMBER";
+					months[0] = "JANUARY";months[1] = "FEBRUARY";months[2] = "MARCH";months[3] = "APRIL";months[4] = "MAY";months[5] = "JUNE";months[6] = "JULY";
+					months[7] = "AUGUST";months[8] = "SEPTEMBER";months[9] = "OCTOBER";months[10] = "NOVEMBER";months[11] = "DECEMBER";
 
 					for (int x=0; x < 12; x++)
 					{
@@ -78,7 +68,7 @@ public class ResQuarter {
 		}
 		loopMap = new HashMap<String, MatchedDataPair>();
 		for(int k = 0; k < 4; k++) {
-			
+
 			xMonthValues[k] = xMonthValues[k] / xNumberOfValues[k];
 			yMonthValues[k] = yMonthValues[k] / yNumberOfValues[k];
 			MatchedDataPair tempPair = new MatchedDataPair(xMonthValues[k], yMonthValues[k]);
